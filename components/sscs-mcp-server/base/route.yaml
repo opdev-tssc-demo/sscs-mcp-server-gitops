@@ -10,8 +10,7 @@ spec:
   port:
     targetPort: 8000 
   tls:
-    insecureEdgeTerminationPolicy: Redirect
-    termination: edge
+    insecureEdgeTerminationPolicy: Allow
   to:
     kind: Service
     name: sscs-mcp-server
