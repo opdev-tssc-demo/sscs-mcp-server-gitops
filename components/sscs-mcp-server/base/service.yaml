@@ -8,7 +8,7 @@ metadata:
   name: sscs-mcp-server
 spec:
   ports:
-  - port: 8081 
-    targetPort: 8081 
+  - port: 8000 
+    targetPort: 8000 
   selector:
     app.kubernetes.io/instance: sscs-mcp-server 
