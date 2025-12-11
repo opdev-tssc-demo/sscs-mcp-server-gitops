@@ -12,5 +12,5 @@ spec:
   template:
     spec:
       containers:
-        - image: quay.io/opdev-tssc-demo/sscs-mcp-server:e72a75abcc1f85e97d03557fef8b425a1ee8fb87@sha256:b83903efbe36e061a4668a77215b105342684352d23542db398756cf65ee0312
+        - image: quay.io/opdev-tssc-demo/sscs-mcp-server:68088223ff71c9a07205a68654618c2767d61945@sha256:9b722b208ab3d65d82736d89257625ac98bfb1656e7727c5c586a54d31a2f2b2
           name: container-image
